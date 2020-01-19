@@ -250,6 +250,25 @@ class Helper:
     def _get_lib_version(path):
         if not path:
             return '(Not found)'
+
+        # Try to get Widevine version using xbmcdrm
+#        from xbmcdrm import CryptoSession
+#        _cryptosession = CryptoSession('edef8ba9-79d6-4ace-a3c8-27dcd51d21ed', 'AES/CBC/NoPadding', 'HmacSHA256')
+#        version = _cryptosession.GetPropertyString('version')
+#        log('Widevine version: %s' % version, level=2)
+#        if version:
+#            return version
+
+        # Get Widevine version using cdll
+        from ctypes import *
+        _widevine_lib = cdll.LoadLibrary('libwidevinecdm.so')
+        get_cdm_version = _widevine_lib.GetCdmVersion
+        get_cdm_version.restype = c_char_p
+        version = get_cdm_version()
+        if version:
+            return version
+
+        # Get Widevine version using expression match
         import re
         with open(path, 'rb') as library:
             match = re.search(r'[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+', str(library.read()))
