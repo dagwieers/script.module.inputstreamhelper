@@ -294,41 +294,45 @@ msgstr "Problemen graag melden op:\n - [COLOR yellow]{url}[/COLOR]"
 
 ### SETTINGS
 msgctxt "#30900"
-msgid "Expert"
-msgstr "Expert"
+msgid "General"
+msgstr "Algemeen"
 
 msgctxt "#30901"
-msgid "InputStream Helper information"
-msgstr "InputStream Helper informatie"
+msgid "InputStream Helper information…"
+msgstr "InputStream Helper informatie…"
 
 msgctxt "#30903"
 msgid "Disable InputStream Helper"
 msgstr "InputStream Helper uitschakelen"
 
-msgctxt "#30904"
-msgid "[I]When disabled, DRM playback may fail![/I]"
-msgstr "[I]Indien uitgeschakeld kan de weergave van DRM-content mislukken![/I]"
-
 msgctxt "#30905"
+msgid "[I]When disabled, DRM playback may stop working in the future![/I]"
+msgstr "[I]Indien uitgeschakeld kan de weergave van DRM-content falen in de toekomst![/I]"
+
+msgctxt "#30930"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "#30931"
 msgid "Update frequency in days"
 msgstr "Updatefrequentie in dagen"
 
-msgctxt "#30907"
+msgctxt "#30933"
 msgid "Temporary download directory"
 msgstr "Tijdelijke download-folder"
 
-msgctxt "#30909"
-msgid "(Re)install Widevine CDM library..."
-msgstr "Widevine CDM (her-)installeren..."
-
-msgctxt "#30911"
-msgid "Remove Widevine CDM library..."
-msgstr "Widevine CDM verwijderen..."
-
-msgctxt "#30913"
+msgctxt "#30935"
 msgid "Number of backups"
 msgstr "Aantal backups"
 
-msgctxt "#30915"
-msgid "Restore Widevine CDM library..."
-msgstr "Herstel Widevine CDM..."
+msgctxt "#30937"
+msgid "(Re)install Widevine CDM library…"
+msgstr "Widevine CDM (her-)installeren…"
+
+msgctxt "#30939"
+msgid "Restore Widevine CDM library…"
+msgstr "Widevine CDM herstellen…"
+
+msgctxt "#30941"
+msgid "Remove Widevine CDM library…"
+msgstr "Widevine CDM verwijderen…"

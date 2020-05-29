@@ -322,41 +322,45 @@ msgstr ""
 
 ### SETTINGS
 msgctxt "#30900"
-msgid "Expert"
+msgid "General"
 msgstr ""
 
 msgctxt "#30901"
-msgid "InputStream Helper information"
+msgid "InputStream Helper information…"
 msgstr ""
 
 msgctxt "#30903"
 msgid "Disable InputStream Helper"
 msgstr ""
 
-msgctxt "#30904"
-msgid "[I]When disabled, DRM playback may fail![/I]"
+msgctxt "#30905"
+msgid "[I]When disabled, DRM playback may stop working in the future![/I]"
 msgstr ""
 
-msgctxt "#30905"
+msgctxt "#30930"
+msgid "Widevine"
+msgstr ""
+
+msgctxt "#30931"
 msgid "Update frequency in days"
 msgstr ""
 
-msgctxt "#30907"
+msgctxt "#30933"
 msgid "Temporary download directory"
 msgstr ""
 
-msgctxt "#30909"
-msgid "(Re)install Widevine CDM library..."
-msgstr ""
-
-msgctxt "#30911"
-msgid "Remove Widevine CDM library..."
-msgstr ""
-
-msgctxt "#30913"
+msgctxt "#30935"
 msgid "Number of backups"
 msgstr ""
 
-msgctxt "#30915"
-msgid "Restore Widevine CDM library..."
+msgctxt "#30937"
+msgid "(Re)install Widevine CDM library…"
+msgstr ""
+
+msgctxt "#30939"
+msgid "Restore Widevine CDM library…"
+msgstr ""
+
+msgctxt "#30941"
+msgid "Remove Widevine CDM library…"
 msgstr ""
